@@ -21,6 +21,12 @@ Similarity Score → ACCEPT ✅ or REJECT ❌
 
 Even if someone knows your password — they **cannot fake your typing rhythm**.
 
+check it out here!!
+🔗 Live Demo (password protected): https://replit.com/@lang99sszkvstss/Behavioral-Biometrics-Security-System
+
+🔑 Password: eployit12345@99
+
+
 ---
 
 ## 🚀 Features
@@ -134,13 +140,7 @@ Each Encoder:
 
 ---
 
-## 📌 Built For
 
-**Hexaware AI Innovation League (HAIL) — May 2026**
-
-> *"Reduces authentication vulnerabilities by adding a zero-effort behavioral layer — users don't change behavior, impostors can't fake it."*
-
----
 
 ## 👩‍💻 Author
 
