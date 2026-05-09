@@ -202,7 +202,9 @@ def build_siamese_network(input_dim):
         x = layers.Dense(64, activation="relu")(inp)
         x = layers.BatchNormalization()(x)
         x = layers.Dropout(0.2)(x)
+        x = layers.Dense(64, activation="relu")(x)
         x = layers.Dense(32, activation="relu")(x)
+        x = layers.Dense(16, activation="relu")(x)
         x = layers.BatchNormalization()(x)
         x = layers.Dense(16, activation="relu")(x)  # embedding
         return keras.Model(inp, x, name="encoder")
@@ -285,7 +287,7 @@ def train_user_model(samples):
     model, encoder = build_siamese_network(input_dim)
     model.fit(
         [A, B], y,
-        epochs=60,
+        epochs=25,
         batch_size=16,
         validation_split=0.15,
         verbose=0,
@@ -308,7 +310,7 @@ def compute_auth_score(new_sample, stored_samples, model, scaler):
     stored_norm = scaler.transform(stored_samples)
 
     scores = []
-    for s in stored_norm:
+    for s in stored_norm[;8]:
         score = float(model.predict([new_norm, [s]], verbose=0)[0][0])
         scores.append(score)
 
