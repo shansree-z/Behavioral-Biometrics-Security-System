@@ -2,7 +2,7 @@
 
 > **Your typing rhythm is your password** — Siamese Neural Network authenticates users by how they type, not just what they type.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python) 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange?style=flat-square&logo=tensorflow)
 ![Flask](https://img.shields.io/badge/Flask-3.0-black?style=flat-square&logo=flask)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
